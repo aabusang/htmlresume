@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: orange;
+}
+
+h1{
+    font-family: Tahoma, sans-serif;
+    background: white;
+}
+h2{
+    font-weight: bolder;
+    background: gray;
+    width: 200px;
+    margin: auto;
+    padding: 20px 50px;
+}
+p{
+    font-size: 30px;
+}
+img{
+    /* width: 50%; */
+    margin-bottom: 50px;
+}
+hr{
+    background: red;
+    height: 7px;
+    width: 50%;
+}
+footer{
+    height: 140px;
+    background-color: gray;
+}
+.location > img{
+    width: 500px;
+}
+/* .weather{
+    display: flex;
+} */
+.weather > img{
+    width: fit-content;
+    height: 150px;
+}
